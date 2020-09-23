@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 50px;
+    padding-top: 20px;
 }
 
 .card {
@@ -49,12 +49,18 @@ img {
 }
 
 .button {
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
-    background-color: red;
+    width: 40%;
+    min-width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: orangered;
     color: white;
     font-size: 24px;
+    text-align: center;
+    padding-top: 0px;
+    box-shadow: 5px 5px 30px rgba(29, 29, 29, 0.4);
+    border: 6px solid rgb(252, 248, 248);
+    text-decoration: none;
 }
 
 .menuButton {
@@ -63,12 +69,17 @@ img {
     right: 2%;
     background-color: orangered;
     color: white;
-    font-size: 16px;
-    width: 70px;
-    height: 70px;
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
     text-align: center;
-    padding-top: 24px;
+    padding-top: 23px;
     box-shadow: 5px 5px 30px rgba(29, 29, 29, 0.4);
-    border: 2px solid rgb(252, 248, 248);
+    border: 6px solid rgb(252, 248, 248);
+    text-decoration: none;
+}
+
+.distance {
+    padding-top: 90px;
 }
