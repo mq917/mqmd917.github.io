@@ -56,3 +56,11 @@ img {
     color: white;
     font-size: 24px;
 }
+
+.menuDown {
+    position: fixed;
+    bottom: 0%;
+    background-color: orangered;
+    width: 100%;
+    height: 5%;
+}
