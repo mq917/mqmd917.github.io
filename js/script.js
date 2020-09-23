@@ -42,6 +42,12 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     function createCards(response) {
+
+        let menu = document.createElement('div');
+        menu.classList.add('menuButton');
+        menu.innerHTML = '<a class="menuButton" href ="index.html"> MENU </a>';
+        document.querySelector('.app').appendChild(menu);
+
         response.forEach(item => {
             let card = document.createElement('div');
 
@@ -60,8 +66,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         <div class = " sex">
                         <img src= ${icon} alt=${item.sex}>
                         </div>
-                        <div class = "age"> ${item.age}</div>
-                        <button>back</button>`;
+                        <div class = "age"> ${item.age}</div>`;
             document.querySelector('.app').appendChild(card);
         });
     }
