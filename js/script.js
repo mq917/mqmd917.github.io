@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', () => {
         //         console.error('Chto-to poshlo ne tak!');
         //     }
         // });
-        fetch('https://mq917.github.io/site/db.json')
+        fetch('http://localhost:3000/people')
             .then(data => data.json())
             .then(data => createCards(data))
             .catch(err => console.error(err));
