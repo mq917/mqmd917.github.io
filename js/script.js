@@ -60,7 +60,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         <div class = " sex">
                         <img src= ${icon} alt=${item.sex}>
                         </div>
-                        <div class = "age"> ${item.age}</div>`;
+                        <div class = "age"> ${item.age}</div>
+                        <button>back</button>`;
             document.querySelector('.app').appendChild(card);
         });
     }
