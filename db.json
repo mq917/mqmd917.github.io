@@ -1,0 +1,38 @@
+{
+    "people": [{
+            "name": "John",
+            "surname": "Smith",
+            "sex": "male",
+            "age": 26,
+            "photo": "https://m.media-amazon.com/images/M/MV5BMjM3MjM3NTAxM15BMl5BanBnXkFtZTgwMTY0Nzg2OTE@._V1_.jpg"
+        },
+        {
+            "name": "Angela",
+            "surname": "Whinston",
+            "sex": "female",
+            "age": 31,
+            "photo": "https://onthewingsoflove.blob.core.windows.net/album/011816-Angela/1.jpg"
+        },
+        {
+            "name": "Alex",
+            "surname": "Solberry",
+            "sex": "male",
+            "age": 35,
+            "photo": "https://www.gv.com/img/team-large/john-lyman.jpg"
+        },
+        {
+            "name": "Anna",
+            "surname": "Rayan",
+            "sex": "female",
+            "age": 23,
+            "photo": "https://i2-prod.mirror.co.uk/incoming/article20663198.ece/ALTERNATES/s1200b/2_Screen-Shot-2019-10-20-at-215756JPG.jpg"
+        },
+        {
+            "name": "Michael",
+            "surname": "Dobkin",
+            "sex": "male",
+            "age": 30,
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT51TxgSSAyxAuzS5BsXPpkPzVOLD6LNgtrNA&usqp=CAU"
+        }
+    ]
+}
